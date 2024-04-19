@@ -1,0 +1,30 @@
+<diagram program="umletino" version="15.1"><zoom_level>10</zoom_level><element><id>UMLClass</id><coordinates><x>410</x><y>240</y><w>310</w><h>100</h></coordinates><panel_attributes>Triangulo
+--
+bg=red
+-ESTILO:String
+--
+&lt;&lt;Constructor&gt;&gt;+Triangulo(double, double, String)
++area():double
++mostrarEtilo:void</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>410</x><y>40</y><w>300</w><h>150</h></coordinates><panel_attributes>FiguraPlana
+bg=orange
+--
+-BASE:double
+-ALTURA: double
+--
+&lt;&lt;Constructor&gt;&gt; +FiguraPlana(double, double)
++getBASE()
+-getALTURA() double
++mostrarDimension():void</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>20</x><y>210</y><w>190</w><h>40</h></coordinates><panel_attributes>lt=&lt;&lt;-
+Generalizacion - es un</panel_attributes><additional_attributes>10;20;170;20</additional_attributes></element><element><id>Relation</id><coordinates><x>0</x><y>250</y><w>230</w><h>40</h></coordinates><panel_attributes>lt=&lt;&lt;.
+Implementacion- se comporta como</panel_attributes><additional_attributes>30;20;190;20</additional_attributes></element><element><id>Relation</id><coordinates><x>20</x><y>290</y><w>190</w><h>40</h></coordinates><panel_attributes>lt=&lt;-
+Asociacion - tiene un</panel_attributes><additional_attributes>10;20;170;20</additional_attributes></element><element><id>Relation</id><coordinates><x>20</x><y>160</y><w>190</w><h>40</h></coordinates><panel_attributes>lt=&lt;..
+Dependencia - usa un</panel_attributes><additional_attributes>10;20;170;20</additional_attributes></element><element><id>Relation</id><coordinates><x>20</x><y>330</y><w>190</w><h>50</h></coordinates><panel_attributes>lt=-
+m1=0..n
+m2=0..1
+teaches to &gt;</panel_attributes><additional_attributes>10;20;170;20</additional_attributes></element><element><id>Relation</id><coordinates><x>550</x><y>180</y><w>70</w><h>80</h></coordinates><panel_attributes>lt=&lt;&lt;-
+es una</panel_attributes><additional_attributes>10;10;10;60</additional_attributes></element><element><id>UMLClass</id><coordinates><x>440</x><y>390</y><w>270</w><h>120</h></coordinates><panel_attributes>PruebaTriangulo
+bg=green
+--
+--
+_+main(String[]):void_</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>550</x><y>330</y><w>50</w><h>80</h></coordinates><panel_attributes>lt=&lt;..
+usa</panel_attributes><additional_attributes>10;10;10;60</additional_attributes></element></diagram>

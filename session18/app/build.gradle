@@ -1,0 +1,21 @@
+apply plugin: 'java'
+
+// Configuración del JAR
+jar {
+    // Nombre del archivo JAR generado
+    archiveBaseName = 'mi-aplicacion.jar'
+    
+    // Configuración del Manifest (opcional)
+    manifest {
+        attributes 'Main-Class': 'sesion18.HelloWorld' // Reemplaza con tu clase principal
+    }
+}
+
+// Configuración de las fuentes de Java
+sourceSets {
+    main {
+        java {
+            srcDirs = ['src/main/java']
+        }
+    }
+}

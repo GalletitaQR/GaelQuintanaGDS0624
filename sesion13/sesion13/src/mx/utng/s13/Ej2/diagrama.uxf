@@ -1,0 +1,10 @@
+<diagram program="umletino" version="15.1"><zoom_level>10</zoom_level><element><id>UMLClass</id><coordinates><x>280</x><y>110</y><w>200</w><h>80</h></coordinates><panel_attributes>Nombre
+--
+-nombre: String
+--
+&lt;&lt;Constructor&gt;&gt; +Nombre:(String)
++getNumer():String</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>280</x><y>240</y><w>180</w><h>90</h></coordinates><panel_attributes>Colecciones
+--
+
+--
+_+main(String[]args):void_</panel_attributes><additional_attributes></additional_attributes></element></diagram>
